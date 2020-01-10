@@ -66,14 +66,14 @@ windwo.sign_up_keyboard();
 ## input标签属性
 |属性|说明|类型|可选值|默认值|
 |:-:|:-|:-|:-|:-|
-|**data-mode**|弹出输入法的类型：<br>`en_let` 英文小写<br>`en_cap` 英文大写<br>`cn` 中文<br>`hand` 手写|String|`en_let`<br>`en_cap`<br>`cn`<br>`hand`|`en_let`|
+|**data-mode**|弹出输入法的类型：<br>`en_let` 英文小写<br>`en_cap` 英文大写<br>`CN1` 中文<br>`en_let`<br>`en_cap`<br>`cn`<br>`hand`|`en_let`|
 
 ## 组件属性
 |属性|说明|类型|可选值|默认值|
 |:-:|:-|:-|:-|:-|
 |**all**|是否为所有`input`标签注册弹出输入法|Boolean|true/false|false|
 |**float**|是否使输入法组件浮动在当前`input`标签下方|Boolean|true/false|false|
-|**hand**|是否启用手写输入，默认禁用|Boolean|true/false|false|
+
 |**blurHide**|当`input`标签失去焦点时是否隐藏输入组件|Boolean|true/false|true|
 |**size**|组件大小，mini最小支持宽度1080px，默认最小宽度则是1330px|String|primary/mini|primary|
 |**enter-active-class**|输入组件弹出来的动画效果，基于[Animate.css](https://daneden.github.io/animate.css/)|String|见 [Animate.css](https://daneden.github.io/animate.css/) 官网|fadeInUp|
