@@ -34,7 +34,13 @@
     <input id="test" v-if="show" type="text" onfocus="$show_keyboard(event)" onblur="$hide_keyboard(event)" />
     <!--<vue-dusion-keyboard ref="keyboard" all window hand float hand-write-api="http://jsrtj.fotoit.cn/iis/HandWriteApi/words">
     </vue-dusion-keyboard>-->
-    <vue-dusion-keyboard hand float :blurHide="false" size="mini"></vue-dusion-keyboard>
+    <vue-dusion-keyboard
+    ref="keyboard"
+    float
+    :blurHide="false"
+    size="mini"
+    HandWriteApi="http://localhost/HandWriteApi/words"
+  ></vue-dusion-keyboard>
   </div>
   <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
   <script src="./vue-dusion-keyboard.js"></script>
