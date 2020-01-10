@@ -73,7 +73,6 @@ windwo.sign_up_keyboard();
 |:-:|:-|:-|:-|:-|
 |**all**|是否为所有`input`标签注册弹出输入法|Boolean|true/false|false|
 |**float**|是否使输入法组件浮动在当前`input`标签下方|Boolean|true/false|false|
-
 |**blurHide**|当`input`标签失去焦点时是否隐藏输入组件|Boolean|true/false|true|
 |**size**|组件大小，mini最小支持宽度1080px，默认最小宽度则是1330px|String|primary/mini|primary|
 |**enter-active-class**|输入组件弹出来的动画效果，基于[Animate.css](https://daneden.github.io/animate.css/)|String|见 [Animate.css](https://daneden.github.io/animate.css/) 官网|fadeInUp|
