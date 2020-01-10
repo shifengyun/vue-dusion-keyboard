@@ -1,6 +1,6 @@
 # vue-dusion-keyboard
 
-> 基于vue的一款js键盘，支持`拼音输入`临时[demo地址](http://jsrtj.fotoit.cn/iis/keyboard-demo/)
+> 基于vue的一款js键盘，支持`拼音输入`
 ---
 
 ## 安装
