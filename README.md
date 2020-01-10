@@ -66,7 +66,7 @@ windwo.sign_up_keyboard();
 ## input标签属性
 |属性|说明|类型|可选值|默认值|
 |:-:|:-|:-|:-|:-|
-|**data-mode**|弹出输入法的类型：<br>`en_let` 英文小写<br>`en_cap` 英文大写<br>`CN1` 中文<br>`en_let`<br>`en_cap`<br>`cn`<br>`hand`|`en_let`|
+|**data-mode**|弹出输入法的类型：<br>`en_let` 英文小写<br>`en_cap` 英文大写<br>`CN1` 中文<br>|String|`en_let`<br>`en_cap`<br>`cn`<br>`en_let`|
 
 ## 组件属性
 |属性|说明|类型|可选值|默认值|
