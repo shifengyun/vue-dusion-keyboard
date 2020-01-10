@@ -1,6 +1,6 @@
 # vue-dusion-keyboard
 
-> 基于vue的一款js键盘，支持`拼音输入`和`手写输入`，临时[demo地址](http://jsrtj.fotoit.cn/iis/keyboard-demo/)
+> 基于vue的一款js键盘，支持`拼音输入`临时[demo地址](http://jsrtj.fotoit.cn/iis/keyboard-demo/)
 ---
 
 ## 安装
@@ -53,24 +53,8 @@ windwo.sign_up_keyboard();
 ```
 ---
 
-## 模式
 
-### 离线模式
-组件默认为离线模式，离线模式需要运行在[electron](https://electronjs.org)环境下，所需的控件有：
-##### nodejs模块:
-- `ffi`
-- `ref`
-- `iconv`
-##### C++库:
-- `XDLL.dll` : 放置在electron根目录的`plug\\handWrite\\XDLL.dll`下，暂不提供。
-##### 手写字库:
-- `hz.mrd` : 中文字库，放置在`XDLL.dll`同目录下，暂不提供。
-- `English.mrd` : 英文字库，放置在`XDLL.dll`同目录下，暂不提供。
 
-### 互联网模式
-组件上添加`hand-write-api`属性即可切换互联网模式，可以直接运行在浏览器中
-> 手写输入互联网接口地址见临时[demo地址](http://jsrtj.fotoit.cn/iis/keyboard-demo/)。<br>注意：临时地址仅供学习之用，随时可能关闭。
----
 ## Animate.css
 此项目引用了[animate.css](https://daneden.github.io/animate.css/)，用于键盘显示隐藏的过渡动画，内置fadeInUp和fadeOutDown，如需其他效果，请引入animate.css文件，然后配置属性`enter-active-class`和`leave-active-class`
 
@@ -104,15 +88,7 @@ windwo.sign_up_keyboard();
 |show_keyboard|((已过时，不建议))注册显示键盘事件|event|
 |hide_keyboard|((已过时，不建议))注册隐藏键盘事件|event|
 
-### 更新
-- **v1.0.2**<br>
-1.添加动态创建的input标签呼出键盘的解决方案
-- **v1.0.3**<br>
-1.修复all模式下键盘隐藏事件无效。
-- **v1.0.4**<br>
-1.继续修复all模式下键盘隐藏事件无效的问题。
-- **v1.0.5**<br>
-1.添加全局方法`sign_up_keyboard()`，当页面有新的input标签出现时调用此方法即可。
-2.添加`size`属性，最小宽度支持到`1080`。
+
+
 
 
